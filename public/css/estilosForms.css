@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto");
+
+body {
+    background: linear-gradient(to right, #3fb6a8, #7ed386);
+    font-size: 20px;
+}
+
+.container {
+    background: #ffffff;
+    width: 900px;
+    height: 580px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10%;
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+}
+
+.logo {
+    float: right;
+    margin-right: 12px;
+    margin-top: 12px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #3dbb3d;
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.CTA {
+    width: 80px;
+    height: 40px;
+    right: -20px;
+    bottom: 0;
+    margin-bottom: 90px;
+    position: absolute;
+    z-index: 1;
+    background: #7ed386;
+    font-size: 1em;
+    transform: rotate(-90deg);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.CTA h1 {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.CTA.hover {
+    background: #3fb6a8;
+    transform: scale(1.1);
+}
+
+.leftbox {
+    float: left;
+    top: -5%;
+    left: 5%;
+    position: absolute;
+    width: 10%;
+    height: 110%;
+    background: #7ed386;
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+}
+nav {
+    color: white;
+}
+nav a.hover {
+    color: #3fb6a8 ;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+nav a {
+    list-style: none;
+    padding: 35px;
+    color: #ffffff ;
+    font-size: 1.1em;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a.fisrt-child {
+    margin-top: 7px;
+}
+
+.active {
+    color: #3fb6a8;
+}
+
+.rightbox {
+    float: right;
+    width: 60%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.profile,
+.payment,
+.subscription,
+.privacy,
+.settings {
+    transition: opacity 0.5s ease-in;
+    position: static;
+    width: 120%;
+}
+
+.laber-form {
+    color: #777777;
+    font-family: "Montserrat", "Roboto", sans-serifsans-serif;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #7ed386;
+    font-size: 1em;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #777777;
+    font-family: "Montserrat", "Roboto", sans-serifsans-serif;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+}
+p {
+    border-width: 1px;
+    border-image: linear-gradient(to right, #3fb6a8, rgba(126, 211, 134, 0.5)) 1 0%;
+    border-top: 0;
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    padding: 7px 0;
+    color: #070707;
+}
+
+.input-form {
+    border-width: 1px;
+    border-image: linear-gradient(to right, #3fb6a8, rgba(126, 211, 134, 0.5)) 1 0%;
+    border-top: 0;
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    padding: 7px 0;
+    color: #070707;
+}
+span {
+    font-size: 0.5em;
+    color: #777777;
+}
+
+.btn {
+    float: right;
+    font-family: "Montserrat", "Roboto", sans-serifsans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    border: none;
+    color: #3fb6a8;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+input {
+    border: 1px solid lighten(#777777, 40%);
+    font-family: "Montserrat", "Roboto", sans-serifsans-serif;
+    padding: 2px;
+    margin: 0;
+}
+
+.privacy h2 {
+    margin-top: 25px;
+}
+
+.settings h2 {
+    margin-top: 25px;
+}
+
+.noshow {
+    visibility: hidden;
+}
+
+.btn-color{
+    background-color: #3fb6a8;
+    color: #ffff;
+    font-size: 15px;
+    width: 150px;
+}
